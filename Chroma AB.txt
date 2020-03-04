@@ -1,0 +1,145 @@
+{
+	Tools = ordered() {
+		ChromaAberationV1 = MacroOperator {
+			CtrlWZoom = false,
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "PipeRouter2_1",
+					Source = "Input",
+				},
+				Input1 = InstanceInput {
+					SourceOp = "XFRed",
+					Source = "Center",
+				}
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "ChannelBooleans4_1_2",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 6435, 5560.5 } },
+			Tools = ordered() {
+				ChannelBooleans3_1 = ChannelBoolean {
+					CtrlWShown = false,
+					Inputs = {
+						ToRed = Input { Value = 15, },
+						ToGreen = Input { Value = 15, },
+						Background = Input {
+							SourceOp = "PipeRouter2_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 76.15 } },
+					Colors = { TileColor = { R = 0, G = 0.329411764705882, B = 0.498039215686275 }, }
+				},
+				XFBlue = Transform {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						Center = Input {
+							Value = { 0.499076862488807, 0.5 },
+							Expression = "Point(1-XFRed.Center.X, 0.5)",
+						},
+						FilterMethod = Input { Value = 7, },
+						Input = Input {
+							SourceOp = "ChannelBooleans3_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 76.15 } },
+					Colors = { TileColor = { R = 0, G = 0.329411764705882, B = 0.498039215686275 }, }
+				},
+				ChannelBooleans1_1 = ChannelBoolean {
+					CtrlWShown = false,
+					Inputs = {
+						ToRed = Input { Value = 15, },
+						ToBlue = Input { Value = 15, },
+						Background = Input {
+							SourceOp = "PipeRouter2_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 43.15 } },
+					Colors = { TileColor = { R = 0.329411764705882, G = 0.666666666666667, B = 0 }, }
+				},
+				XFGreen = Transform {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						FilterMethod = Input { Value = 7, },
+						Input = Input {
+							SourceOp = "ChannelBooleans1_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 43.15 } },
+					Colors = { TileColor = { R = 0.329411764705882, G = 0.666666666666667, B = 0 }, }
+				},
+				PipeRouter2_1 = PipeRouter {
+					CtrlWShown = false,
+					ViewInfo = PipeRouterInfo { Pos = { -220, 43.15 } },
+				},
+				ChannelBooleans4_1 = ChannelBoolean {
+					CtrlWZoom = false,
+					CtrlWShown = false,
+					Inputs = {
+						Operation = Input { Value = 1, },
+						Background = Input {
+							SourceOp = "XFRed",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "XFGreen",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 110, 43.15 } },
+				},
+				XFRed = Transform {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						Center = Input { Value = { 0.500923137511193, 0.5 }, },
+						FilterMethod = Input { Value = 7, },
+						Input = Input {
+							SourceOp = "ChannelBooleans2_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 10.15 } },
+					Colors = { TileColor = { R = 0.666666666666667, G = 0, B = 0 }, }
+				},
+				ChannelBooleans2_1 = ChannelBoolean {
+					CtrlWShown = false,
+					Inputs = {
+						ToGreen = Input { Value = 15, },
+						ToBlue = Input { Value = 15, },
+						Background = Input {
+							SourceOp = "PipeRouter2_1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 10.15 } },
+					Colors = { TileColor = { R = 0.666666666666667, G = 0, B = 0 }, }
+				},
+				ChannelBooleans4_1_2 = ChannelBoolean {
+					CtrlWShown = false,
+					Inputs = {
+						Operation = Input { Value = 1, },
+						Background = Input {
+							SourceOp = "ChannelBooleans4_1",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "XFBlue",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 220, 43.15 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "ChromaAberationV1"
+}
