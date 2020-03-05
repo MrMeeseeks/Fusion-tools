@@ -1,0 +1,914 @@
+{
+	Tools = ordered() {
+		FastNoise1_1_1_1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.983, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5610, 1468.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5500, 1501.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.151185315174515, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5610, 1567.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.174635484342481, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5500, 1600.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.127717237874129, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5720, 1534.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.906, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5720, 1435.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.103448009972929, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5830, 1501.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.812, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5830, 1402.5 } },
+		},
+		FastNoise1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.641, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5940, 1369.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.0819644240188265, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5940, 1468.5 } },
+		},
+		ImagePlane3D2_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.0622645872846195, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6050, 1435.5 } },
+		},
+		FastNoise1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.479, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6050, 1336.5 } },
+		},
+		FastNoise1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.342, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6160, 1303.5 } },
+		},
+		ImagePlane3D2_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.0475491528136775, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6160, 1402.5 } },
+		},
+		FastNoise1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.239, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6270, 1270.5 } },
+		},
+		ImagePlane3D2_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.0328531946405936, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6270, 1369.5 } },
+		},
+		ImagePlane3D2_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.0169663170211329, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6380, 1336.5 } },
+		},
+		FastNoise1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.162, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6380, 1237.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1963.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1930.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1897.5 } },
+		},
+		Merge3D2_1_1_1_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1864.5 } },
+		},
+		Merge3D2_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1765.5 } },
+		},
+		Merge3D2_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1732.5 } },
+		},
+		Merge3D2_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1699.5 } },
+		},
+		Merge3D2_1_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1798.5 } },
+		},
+		Merge3D2_1_1_1_1_2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1831.5 } },
+		},
+		Merge3D2 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "ImagePlane3D2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1336.5 } },
+		},
+		ImagePlane3D2 = ImagePlane3D {
+			Inputs = {
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1303.5 } },
+		},
+		FastNoise1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1237.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1534.5 } },
+		},
+		Merge3D2_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1468.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1600.5 } },
+		},
+		Merge3D2_1_1_1_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1567.5 } },
+		},
+		Merge3D2_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1369.5 } },
+		},
+		Merge3D2_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1402.5 } },
+		},
+		Merge3D2_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1435.5 } },
+		},
+		Merge3D2_1_1_1_1_1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "Merge3D2_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "ImagePlane3D2_1_1_1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 1501.5 } },
+		},
+		ImagePlane3D2_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.0229712352320887, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6655, 1699.5 } },
+		},
+		FastNoise1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.162, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6655, 1600.5 } },
+		},
+		ImagePlane3D2_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.0454927149616537, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6765, 1732.5 } },
+		},
+		FastNoise1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.239, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6765, 1633.5 } },
+		},
+		ImagePlane3D2_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.0678169258813672, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6875, 1765.5 } },
+		},
+		FastNoise1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.342, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6875, 1666.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.0924496012818747, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6985, 1798.5 } },
+		},
+		FastNoise1_1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.479, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6985, 1699.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.115081798576489, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7095, 1831.5 } },
+		},
+		FastNoise1_1_1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.641, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7095, 1732.5 } },
+		},
+		Camera3D2 = Camera3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input {
+					SourceOp = "Camera3D2ZOffset",
+					Source = "Value",
+				},
+				AoV = Input { Value = 19.2642683071402, },
+				["Stereo.Mode"] = Input { Value = FuID { "OffAxis" }, },
+				FilmGate = Input { Value = FuID { "BMD_URSA_4K_16x9" }, },
+				ApertureW = Input { Value = 0.831496062992126, },
+				ApertureH = Input { Value = 0.467716535433071, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 12, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 13, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6710, 2161.5 } },
+		},
+		Camera3D2ZOffset = BezierSpline {
+			SplineColor = { Red = 254, Green = 56, Blue = 46 },
+			NameSet = true,
+			KeyFrames = {
+				[1] = { 1.6374289143696, RH = { 67.3333333333333, 1.02730037307986 }, Flags = { Linear = true } },
+				[200] = { -0.192956709499612, LH = { 133.666666666667, 0.417171831790126 }, Flags = { Linear = true } }
+			}
+		},
+		FastNoise1_1_1_1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.812, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7205, 1765.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.138546929368906, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7205, 1864.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.165833293625933, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7315, 1897.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.906, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7315, 1798.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1_1_2 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.196744264500108, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1_1_2",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7425, 1930.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1_1_1_2 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -0.983, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7425, 1831.5 } },
+		},
+		Merge3D1 = Merge3D {
+			Inputs = {
+				SceneInput1 = Input {
+					SourceOp = "PointLight1",
+					Source = "Output",
+				},
+				SceneInput2 = Input {
+					SourceOp = "Merge3D2_1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				SceneInput3 = Input {
+					SourceOp = "Camera3D2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 2227.5 } },
+		},
+		PointLight1 = LightPoint {
+			Inputs = {
+				["Transform3DOp.Translate.Y"] = Input { Value = 0.248052970615246, },
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.452986206845538, },
+				Intensity = Input { Value = 0.714, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6710, 2227.5 } },
+		},
+		ImagePlane3D2_1_1_1_1_1_1_1_1_1_1 = ImagePlane3D {
+			Inputs = {
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.225540991208816, },
+				["SurfacePlaneInputs.Visibility.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Lighting.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.Matte.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.BlendMode.Nest"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 10, },
+				MaterialInput = Input {
+					SourceOp = "FastNoise1_1_1_1_1_1_1_1_1_1_1",
+					Source = "Output",
+				},
+				["MtlStdInputs.Specular.Nest"] = Input { Value = 1, },
+				["MtlStdInputs.Specular.Intensity"] = Input { Value = 0.621, },
+				["MtlStdInputs.Specular.Exponent"] = Input { Value = 10.42, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 8, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7535, 1963.5 } },
+		},
+		FastNoise1_1_1_1_1_1_1_1_1_1_1 = FastNoise {
+			ExtentSet = true,
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Detail = Input { Value = 10, },
+				Brightness = Input { Value = -1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 7535, 1864.5 } },
+		},
+		Renderer3D1 = Renderer3D {
+			ExtentSet = true,
+			CtrlWZoom = false,
+			CustomData = {
+				ToolVersion = 2,
+			},
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 2569, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				SceneInput = Input {
+					SourceOp = "Merge3D1",
+					Source = "Output",
+				},
+				["RendererSoftware.LightingEnabled"] = Input { Value = 1, },
+				["RendererSoftware.ShadowsEnabled"] = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6490, 2293.5 } },
+		}
+	}
+}
